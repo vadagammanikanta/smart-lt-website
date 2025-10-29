@@ -1,0 +1,13 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Isolate - Smart LT</title>
+<style>body{background:#071124;color:#9fb3d9;font-family:Arial;margin:0} .wrap{max-width:700px;margin:28px auto;padding:16px} .card{background:#0b1a2b;padding:16px;border-radius:10px}</style></head><body>
+<div class="wrap"><h1 style="color:#e6f0ff">Isolation Control</h1><div class="card">
+  <p>Select a risky section to isolate (demo action):</p>
+  <select id="pole"><option>Pole 8</option><option>Pole 20</option><option>Pole 3</option></select>
+  <button onclick="isolate()">Isolate</button>
+  <p id="msg"></p>
+  <p><a href="index.html">← Back to dashboard</a></p>
+</div></div>
+<script>
+function isolate(){ var p=document.getElementById('pole').value; document.getElementById('msg').textContent = p + ' isolated (simulated). Dashboard updated.'; alert('Isolation command sent to ' + p); }
+</script>
+</body></html>

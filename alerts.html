@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Alerts - Smart LT</title>
+<style>
+  body{background:#071124;color:#9fb3d9;font-family:Arial;margin:0;padding:0}
+  .wrap{max-width:900px;margin:28px auto;padding:16px}
+  .card{background:#0b1a2b;padding:16px;border-radius:10px}
+  .a{display:flex;justify-content:space-between;padding:12px;border-radius:8px;background:rgba(255,255,255,0.02);margin-bottom:10px}
+  a{color:#1f6feb;text-decoration:none}
+</style>
+</head><body>
+<div class="wrap">
+  <h1 style="color:#e6f0ff">Alerts & Notifications</h1>
+  <div class="card">
+    <div class="a"><div><strong>Pole 20</strong><div style="font-size:13px;color:#9fb3d9">Overcurrent — 2300A spike</div></div><div><button onclick="ack('Pole 20')">Acknowledge</button></div></div>
+    <div class="a"><div><strong>Pole 8</strong><div style="font-size:13px;color:#9fb3d9">Tilt anomaly — threshold exceeded</div></div><div><button onclick="ack('Pole 8')">Acknowledge</button></div></div>
+    <div class="a"><div><strong>Pole 3</strong><div style="font-size:13px;color:#9fb3d9">High wind — scheduled check</div></div><div><button onclick="ack('Pole 3')">Acknowledge</button></div></div>
+  </div>
+  <p style="margin-top:12px"><a href="index.html">← Back to dashboard</a></p>
+</div>
+<script>
+function ack(id){ alert(id + ' acknowledged'); }
+</script>
+</body></html>

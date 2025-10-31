@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
+  <rect width="100%" height="100%" fill="#071124"/>
+  <g fill="none" stroke-linecap="round">
+    <line x1="60" y1="180" x2="740" y2="60" stroke="#1f6feb" stroke-width="6" opacity="0.9"/>
+    <circle cx="60" cy="180" r="10" fill="#2ecc71"/>
+    <text x="80" y="185" fill="#a9c4ff" font-size="14">Pole 1</text>
+    <circle cx="220" cy="140" r="10" fill="#f6c85f"/>
+    <text x="240" y="145" fill="#a9c4ff" font-size="14">Pole 8 (risky)</text>
+    <circle cx="380" cy="110" r="10" fill="#2ecc71"/>
+    <text x="400" y="115" fill="#a9c4ff" font-size="14">Pole 12</text>
+    <circle cx="540" cy="80" r="10" fill="#e74c3c"/>
+    <text x="560" y="85" fill="#a9c4ff" font-size="14">Pole 20 (fault)</text>
+    <circle cx="740" cy="60" r="10" fill="#2ecc71"/>
+    <text x="760" y="65" fill="#a9c4ff" font-size="14">Pole 25</text>
+  </g>
+</svg>
